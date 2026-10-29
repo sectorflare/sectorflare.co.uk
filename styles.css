@@ -111,6 +111,7 @@ a:hover { text-decoration-thickness: 2px; }
 }
 .button:hover { background: #17414A; }
 .quiet-link { font-weight: 600; }
+.hero-note { margin: 1rem 0 0; max-width: var(--measure); }
 
 /* The limit figure */
 .limit {
