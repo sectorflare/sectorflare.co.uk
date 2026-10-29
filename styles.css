@@ -204,6 +204,10 @@ h2 {
   letter-spacing: -0.01em;
 }
 .section-body { max-width: 42rem; }
+.section-wide { grid-template-columns: minmax(0, 1fr); }
+.section-wide .section-body { max-width: none; }
+.section-wide h2 { margin-bottom: 0.25rem; }
+.section-wide .section-body > p:first-child { max-width: 42rem; }
 .section-body > :first-child { margin-top: 0; }
 .section-body p { margin: 0 0 1rem; }
 
@@ -239,6 +243,15 @@ h2 {
 
 .gaps { margin: 0; padding-left: 1.1rem; }
 .gaps li { margin-bottom: 0.75rem; }
+
+/* Sample table */
+.table-scroll { overflow-x: auto; margin: 0 0 1rem; -webkit-overflow-scrolling: touch; }
+.sample { border-collapse: collapse; width: 100%; min-width: 52rem; font-size: 0.9375rem; line-height: 1.4; }
+.sample th, .sample td { text-align: left; vertical-align: top; padding: 0.6rem 0.75rem 0.6rem 0; border-top: 1px solid var(--rule); }
+.sample thead th { font-weight: 700; border-top: none; border-bottom: 2px solid var(--ink); padding-top: 0; }
+.sample tbody th { font-weight: 700; white-space: nowrap; }
+.sample tbody tr:last-child th, .sample tbody tr:last-child td { border-bottom: 1px solid var(--rule); }
+.sample em { font-style: normal; color: var(--silt); }
 
 /* Price */
 .price {
