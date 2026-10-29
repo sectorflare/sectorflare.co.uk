@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sectorflare.co.uk/sitemap.xml
