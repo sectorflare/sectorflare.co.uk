@@ -88,6 +88,12 @@ a:hover { text-decoration-thickness: 2px; }
   letter-spacing: -0.015em;
   max-width: 20ch;
 }
+.brand-line {
+  margin: 0 0 1.25rem;
+  max-width: var(--measure);
+  color: var(--silt);
+  font-size: 1rem;
+}
 .lead {
   margin: 0 0 2rem;
   max-width: var(--measure);
